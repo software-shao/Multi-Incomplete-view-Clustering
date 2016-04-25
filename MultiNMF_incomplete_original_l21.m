@@ -6,6 +6,7 @@ function [U, V, centroidU, log, ac] = MultiNMF_incomplete_original_l21(X, C, K, 
 % K ... number of hidden factors
 % label ... ground truth labels
 % options ... a cell containing the parameters
+% Depend on the dataset and the normalization of the dataset, the two parameters alpha and beta need to be tuned. 
 % implemented by Weixiang Shao (wshao4@uic.edu)
 
 viewNum = length(X);
